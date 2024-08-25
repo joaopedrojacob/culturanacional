@@ -1,0 +1,77 @@
+body {
+ color: rgb(255, 238, 0);
+ background: black;
+ margin: 0px;
+ font-family: "Asap", sans-serif;
+ margin-bottom: 100px;
+}
+header {
+      border-bottom: solid 1px  rgb(255, 238, 0);
+      padding: 20px;
+      font-size: 26px;
+      color:  rgb(255, 238, 0);
+}
+    
+
+.chamada  { 
+   background: #000000;
+   padding-bottom: 50px;
+   padding-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.video-principal {
+    display: flex;
+    gap: 10px;
+ size: center;
+}
+
+.video-principal img {
+    height: 350px;
+}
+
+.video-principal img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 238, 0);
+}
+
+
+.chamada-texto {
+    margin-right: 3%;
+}
+
+h1 {
+    font-size: 32px;
+}
+p {
+    font-size: 17px;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+
+opacity: 0.8;
+height: 150px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 238, 0)
+}
+
+
+.subtitulo {
+color: rgb(255, 255, 255);
+}
